@@ -151,6 +151,17 @@ strong {
   margin: 100px 0px;
 }
 
+.hot-deal-content{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hot-deal-content p{
+  margin: 20px 0px;;
+}
+
 /**Hot Deal Section Styles End Here**/
 
 
