@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/**Common CSS**/
+/*
+font family lato width 800,
+400,
+700,
+600 */
+
+.section-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.section-desc {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 15px 25px;
+  border-radius: 8px;
+  background: #E55473;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/**Common CSS**/
+
+/**Header styles start from here**/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #E554731A;
+}
+
+.header-title {
+  color: #272727;
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.header-img {
+  height: 700px;
+  width: auto;
+}
+
+/**Header styles end here**/
+
+
+/**Feature styles start here**/
+.feture-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px 0px;
+}
+
+.featured-flower-container {
+  display: flex;
+}
+
+.feature-section-head {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 350px;
+  height: 450px;
+  border-radius: 300px 300px 0px 0px;
+  margin: 0px 10px;
+  position: relative;
+}
+
+strong {
+  position: absolute;
+  bottom: -30px;
+  text-decoration: underline;
+  color: #272727;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.feature-card img {
+  height: 350px;
+}
+
+.card-1 {
+  background-color: #A7216226;
+}
+
+.card-2 {
+  background-color: #0597A026;
+}
+
+.card-3 {
+  background-color: #477D1126;
+}
+
+/**Feature styles End Here**/
+
+
+/**Fesilites styles Start Here**/
+
+.fesilites-section-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fesilites-section{
+  width: 1140px;
+  height: 280px;
+  background-color: #2727270D;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fesilites-card{
+  width: 200px;
+  text-align: center;  
+}
+
+/**Fesilites Styles End Here**/
+
+/**Hot Deal Section Styles Start Here**/
+
+.hot-deal-section{
+  background-color: #E554730D;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/**Hot Deal Section Styles End Here**/
