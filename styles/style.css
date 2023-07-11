@@ -5,12 +5,6 @@
 }
 
 /**Common CSS**/
-/*
-font family lato width 800,
-400,
-700,
-600 */
-
 .section-title {
   color: #272727;
   font-size: 30px;
@@ -20,8 +14,8 @@ font family lato width 800,
 .section-desc {
   color: rgba(39, 39, 39, 0.60);
   font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 10px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 
 .btn {
@@ -32,6 +26,10 @@ font family lato width 800,
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.pink-text {
+  color: #E55473;
 }
 
 /**Common CSS**/
@@ -46,9 +44,8 @@ font family lato width 800,
 
 .header-title {
   color: #272727;
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 800;
-  margin-bottom: 10px;
 }
 
 .header-img {
@@ -119,12 +116,13 @@ strong {
 
 /**Fesilites styles Start Here**/
 
-.fesilites-section-container{
+.fesilites-section-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.fesilites-section{
+
+.fesilites-section {
   width: 1140px;
   height: 280px;
   background-color: #2727270D;
@@ -134,20 +132,45 @@ strong {
   align-items: center;
   justify-content: space-around;
 }
-.fesilites-card{
+
+.fesilites-card {
   width: 200px;
-  text-align: center;  
+  text-align: center;
 }
 
 /**Fesilites Styles End Here**/
 
 /**Hot Deal Section Styles Start Here**/
 
-.hot-deal-section{
+.hot-deal-section {
   background-color: #E554730D;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: 600px;
+  margin: 100px 0px;
 }
 
 /**Hot Deal Section Styles End Here**/
+
+
+/**Instagram Section Styles Start Here**/
+
+.instagram-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.insta-details {
+  text-align: center;
+}
+
+.insta-photo {
+  width: 300px;
+  height: 350px;
+  margin: 10px;
+}
+
+/**Instagram Section Styles End Here**/
