@@ -167,7 +167,7 @@ strong {
   text-align: center;
 }
 
-.insta-photo-container{
+.insta-photo-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,6 +180,45 @@ strong {
 }
 
 /**Instagram Section Styles End Here**/
+
+
+/**Happy Customar Section Styles Start Here**/
+
+.happy-customar-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+
+.happy-customar-section-head {
+  text-align: center;
+}
+
+.happy-customar-cart-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.happy-customar-cart {
+  width: 280px;
+  height: 230px;
+  background-color: #E554731A;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.happy-customar-cart b {
+  text-align: left;
+}
+
+.happy-customar-cart img {
+  width: 100px;
+}
+/**Happy Customar Section Styles End Here**/
 
 
 /**Subscription Section Styles Start Here**/
