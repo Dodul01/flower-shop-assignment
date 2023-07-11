@@ -174,3 +174,59 @@ strong {
 }
 
 /**Instagram Section Styles End Here**/
+
+
+/**Subscription Section Styles Start Here**/
+
+.subscription-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.subscription-section {
+  background-image: url('../Flower Asset/Rectangle 9.png');
+  height: 400px;
+  width: 1260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.subscription-section input {
+  width: 700px;
+  height: 36px;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  color: black
+}
+
+/**Subscription Section Styles End Here**/
+
+/**Footer Section Styles Start Here**/
+footer {
+  height: 449px;
+  background-color: #111010;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content{
+  text-align: center;
+}
+
+.footer-desc {
+  color: rgba(255, 255, 255, 0.90);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/**Footer Section Styles End Here**/
