@@ -65,13 +65,13 @@
   margin: 100px 0px;
 }
 
-.featured-flower-container {
-  display: flex;
-}
-
 .feature-section-head {
   text-align: center;
   margin-bottom: 10px;
+}
+
+.featured-flower-container {
+  display: flex;
 }
 
 .feature-card {
@@ -167,6 +167,12 @@ strong {
   text-align: center;
 }
 
+.insta-photo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .insta-photo {
   width: 300px;
   height: 350px;
@@ -214,18 +220,25 @@ footer {
   height: 449px;
   background-color: #111010;
   color: white;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.footer-content{
+.footer-content {
   text-align: center;
 }
 
 .footer-desc {
   color: rgba(255, 255, 255, 0.90);
   font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+
+.copy-right-text {
+  color: rgba(255, 255, 255, 0.40);
+  font-size: 16px;
   font-weight: 400;
 }
 
